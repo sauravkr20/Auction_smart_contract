@@ -24,18 +24,21 @@
 
 # Auction
 
-to compile the Pyteal to Teal 
-run ```txt 
-   $ ./build.sh contracts.counter.auction
-```
+1. to compile the Pyteal to Teal 
+    run ```txt 
+        $ ./build.sh contracts.counter.auction
+        ```
 
-to run in sandbox 
+2. to run in sandbox 
 - first create the app 
-goal app create --creator $CREATOR_ADDR --approval-prog /data/build/approval.teal --clear-prog /data/build/clear.teal --global-byteslices 3 --global-ints 6 --local-byteslices 0 --local-byteslices 0 --local-ints 0
+    ```txt
+    goal app create --creator $CREATOR_ADDR --approval-prog /data/build/approval.teal --clear-prog /data/build/clear.teal --global-byteslices 3 --global-ints 6 --local-byteslices 0 --local-byteslices 0 --local-ints 0
+    ```
 
 - then call the app accordingly using 
-goal app call --app-id $APP_ID --from $FROM_ADDRESS {FOLLOWED BY APP ARGUEMENTS}
-
+     ```txt
+    goal app call --app-id $APP_ID --from $FROM_ADDRESS {FOLLOWED BY APP ARGUEMENTS}
+    ```
 
 ## App Arguement Structure 
 arg[0] stores the op
