@@ -32,7 +32,7 @@
 2. to run in sandbox 
 - first create the app 
     ```txt
-    goal app create --creator $CREATOR_ADDR --approval-prog /data/build/approval.teal --clear-prog /data/build/clear.teal --global-byteslices 3 --global-ints 6 --local-byteslices 0 --local-byteslices 0 --local-ints 0
+    goal app create --creator $CREATOR_ADDR --approval-prog /data/build/approval.teal --clear-prog /data/build/clear.teal --global-byteslices 2 --global-ints 3 --local-byteslices 0 --local-byteslices 0 --local-ints 0
     ```
 
 - then call the app accordingly using 
