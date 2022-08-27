@@ -25,7 +25,8 @@
 # Auction
 
 to compile the Pyteal to Teal 
-run /build.sh contracts.counter.auction
+run ```txt 
+   $ ./build.sh contracts.counter.auction
 
 to run in sandbox 
 - first create the app 
