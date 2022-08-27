@@ -46,3 +46,7 @@
 - args[1] stores the nft_id_key
 - args[2] stores the time_delay
 - args[3] is min_bid
+
+
+## understanding the Contract 
+- the contract.py stores the contract scripts written in Pyteal which when compiled generates the Teal code .
