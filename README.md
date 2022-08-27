@@ -41,7 +41,8 @@
     ```
 
 ## App Arguement Structure 
-arg[0] stores the op
-args[1] stores the nft_id_key
-args[2] stores the time_delay
-args[3] is min_bid
+
+- arg[0] stores the op
+- args[1] stores the nft_id_key
+- args[2] stores the time_delay
+- args[3] is min_bid
